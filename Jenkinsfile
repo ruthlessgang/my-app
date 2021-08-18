@@ -8,7 +8,7 @@ pipeline{
         stage("Create Folder"){
             steps{
                 sh "mkdir -p ${env.JOB_NAME}"
-                echo "new commit"
+                echo "new Puli commit"
             }
         }
         stage("Maven Build"){
